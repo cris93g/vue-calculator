@@ -11,7 +11,7 @@
     <h2 class="heading">Subtact</h2>
     <div class="row">
       <input v-model.number="num3" type="number">
-      <span>*</span>
+      <span>-</span>
       <input v-model.number="num4" type="number">
       <span>=</span>
       <span>{{num3-num4}}</span>
@@ -27,7 +27,7 @@
     <h2 class="heading">Divide</h2>
     <div class="row">
       <input v-model.number="num7" type="number">
-      <span>*</span>
+      <span>/</span>
       <input v-model.number="num8" type="number">
       <span>=</span>
       <span>{{num7/num8}}</span>
